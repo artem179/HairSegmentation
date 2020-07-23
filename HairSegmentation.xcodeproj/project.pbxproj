@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC564C4524C8935000470282 /* PostProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC564C4424C8935000470282 /* PostProcessing.swift */; };
+		ACD4D81124C8846600C6146B /* HairSegmentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD4D81024C8846600C6146B /* HairSegmentationApp.swift */; };
+		ACD4D81324C8846600C6146B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD4D81224C8846600C6146B /* ContentView.swift */; };
+		ACD4D81524C8846A00C6146B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD4D81424C8846A00C6146B /* Assets.xcassets */; };
+		ACD4D81824C8846A00C6146B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD4D81724C8846A00C6146B /* Preview Assets.xcassets */; };
+		ACD4D82324C8846A00C6146B /* HairSegmentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD4D82224C8846A00C6146B /* HairSegmentationTests.swift */; };
+		ACD4D82E24C8846B00C6146B /* HairSegmentationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD4D82D24C8846B00C6146B /* HairSegmentationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD4D81F24C8846A00C6146B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD4D80524C8846600C6146B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD4D80C24C8846600C6146B;
+			remoteInfo = HairSegmentation;
+		};
+		ACD4D82A24C8846B00C6146B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD4D80524C8846600C6146B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD4D80C24C8846600C6146B;
+			remoteInfo = HairSegmentation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC564C4424C8935000470282 /* PostProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProcessing.swift; sourceTree = "<group>"; };
+		ACD4D80D24C8846600C6146B /* HairSegmentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairSegmentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD4D81024C8846600C6146B /* HairSegmentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairSegmentationApp.swift; sourceTree = "<group>"; };
+		ACD4D81224C8846600C6146B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACD4D81424C8846A00C6146B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD4D81724C8846A00C6146B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACD4D81924C8846A00C6146B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD4D81E24C8846A00C6146B /* HairSegmentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairSegmentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD4D82224C8846A00C6146B /* HairSegmentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairSegmentationTests.swift; sourceTree = "<group>"; };
+		ACD4D82424C8846A00C6146B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD4D82924C8846B00C6146B /* HairSegmentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairSegmentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD4D82D24C8846B00C6146B /* HairSegmentationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairSegmentationUITests.swift; sourceTree = "<group>"; };
+		ACD4D82F24C8846B00C6146B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD4D80A24C8846600C6146B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD4D81B24C8846A00C6146B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD4D82624C8846B00C6146B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD4D80424C8846600C6146B = {
+			isa = PBXGroup;
+			children = (
+				ACD4D80F24C8846600C6146B /* HairSegmentation */,
+				ACD4D82124C8846A00C6146B /* HairSegmentationTests */,
+				ACD4D82C24C8846B00C6146B /* HairSegmentationUITests */,
+				ACD4D80E24C8846600C6146B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD4D80E24C8846600C6146B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD4D80D24C8846600C6146B /* HairSegmentation.app */,
+				ACD4D81E24C8846A00C6146B /* HairSegmentationTests.xctest */,
+				ACD4D82924C8846B00C6146B /* HairSegmentationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD4D80F24C8846600C6146B /* HairSegmentation */ = {
+			isa = PBXGroup;
+			children = (
+				ACD4D81024C8846600C6146B /* HairSegmentationApp.swift */,
+				ACD4D81224C8846600C6146B /* ContentView.swift */,
+				AC564C4424C8935000470282 /* PostProcessing.swift */,
+				ACD4D81424C8846A00C6146B /* Assets.xcassets */,
+				ACD4D81924C8846A00C6146B /* Info.plist */,
+				ACD4D81624C8846A00C6146B /* Preview Content */,
+			);
+			path = HairSegmentation;
+			sourceTree = "<group>";
+		};
+		ACD4D81624C8846A00C6146B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACD4D81724C8846A00C6146B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACD4D82124C8846A00C6146B /* HairSegmentationTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD4D82224C8846A00C6146B /* HairSegmentationTests.swift */,
+				ACD4D82424C8846A00C6146B /* Info.plist */,
+			);
+			path = HairSegmentationTests;
+			sourceTree = "<group>";
+		};
+		ACD4D82C24C8846B00C6146B /* HairSegmentationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD4D82D24C8846B00C6146B /* HairSegmentationUITests.swift */,
+				ACD4D82F24C8846B00C6146B /* Info.plist */,
+			);
+			path = HairSegmentationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD4D80C24C8846600C6146B /* HairSegmentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD4D83224C8846B00C6146B /* Build configuration list for PBXNativeTarget "HairSegmentation" */;
+			buildPhases = (
+				ACD4D80924C8846600C6146B /* Sources */,
+				ACD4D80A24C8846600C6146B /* Frameworks */,
+				ACD4D80B24C8846600C6146B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HairSegmentation;
+			productName = HairSegmentation;
+			productReference = ACD4D80D24C8846600C6146B /* HairSegmentation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD4D81D24C8846A00C6146B /* HairSegmentationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD4D83524C8846B00C6146B /* Build configuration list for PBXNativeTarget "HairSegmentationTests" */;
+			buildPhases = (
+				ACD4D81A24C8846A00C6146B /* Sources */,
+				ACD4D81B24C8846A00C6146B /* Frameworks */,
+				ACD4D81C24C8846A00C6146B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD4D82024C8846A00C6146B /* PBXTargetDependency */,
+			);
+			name = HairSegmentationTests;
+			productName = HairSegmentationTests;
+			productReference = ACD4D81E24C8846A00C6146B /* HairSegmentationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACD4D82824C8846B00C6146B /* HairSegmentationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD4D83824C8846B00C6146B /* Build configuration list for PBXNativeTarget "HairSegmentationUITests" */;
+			buildPhases = (
+				ACD4D82524C8846B00C6146B /* Sources */,
+				ACD4D82624C8846B00C6146B /* Frameworks */,
+				ACD4D82724C8846B00C6146B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD4D82B24C8846B00C6146B /* PBXTargetDependency */,
+			);
+			name = HairSegmentationUITests;
+			productName = HairSegmentationUITests;
+			productReference = ACD4D82924C8846B00C6146B /* HairSegmentationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD4D80524C8846600C6146B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					ACD4D80C24C8846600C6146B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					ACD4D81D24C8846A00C6146B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = ACD4D80C24C8846600C6146B;
+					};
+					ACD4D82824C8846B00C6146B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = ACD4D80C24C8846600C6146B;
+					};
+				};
+			};
+			buildConfigurationList = ACD4D80824C8846600C6146B /* Build configuration list for PBXProject "HairSegmentation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD4D80424C8846600C6146B;
+			productRefGroup = ACD4D80E24C8846600C6146B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD4D80C24C8846600C6146B /* HairSegmentation */,
+				ACD4D81D24C8846A00C6146B /* HairSegmentationTests */,
+				ACD4D82824C8846B00C6146B /* HairSegmentationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD4D80B24C8846600C6146B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD4D81824C8846A00C6146B /* Preview Assets.xcassets in Resources */,
+				ACD4D81524C8846A00C6146B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD4D81C24C8846A00C6146B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD4D82724C8846B00C6146B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD4D80924C8846600C6146B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD4D81324C8846600C6146B /* ContentView.swift in Sources */,
+				AC564C4524C8935000470282 /* PostProcessing.swift in Sources */,
+				ACD4D81124C8846600C6146B /* HairSegmentationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD4D81A24C8846A00C6146B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD4D82324C8846A00C6146B /* HairSegmentationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD4D82524C8846B00C6146B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD4D82E24C8846B00C6146B /* HairSegmentationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD4D82024C8846A00C6146B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD4D80C24C8846600C6146B /* HairSegmentation */;
+			targetProxy = ACD4D81F24C8846A00C6146B /* PBXContainerItemProxy */;
+		};
+		ACD4D82B24C8846B00C6146B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD4D80C24C8846600C6146B /* HairSegmentation */;
+			targetProxy = ACD4D82A24C8846B00C6146B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACD4D83024C8846B00C6146B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACD4D83124C8846B00C6146B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD4D83324C8846B00C6146B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HairSegmentation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6236N428A5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HairSegmentation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArVrlab.HairSegmentation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACD4D83424C8846B00C6146B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HairSegmentation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6236N428A5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HairSegmentation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArVrlab.HairSegmentation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACD4D83624C8846B00C6146B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6236N428A5;
+				INFOPLIST_FILE = HairSegmentationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArVrlab.HairSegmentationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HairSegmentation.app/HairSegmentation";
+			};
+			name = Debug;
+		};
+		ACD4D83724C8846B00C6146B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6236N428A5;
+				INFOPLIST_FILE = HairSegmentationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArVrlab.HairSegmentationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HairSegmentation.app/HairSegmentation";
+			};
+			name = Release;
+		};
+		ACD4D83924C8846B00C6146B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6236N428A5;
+				INFOPLIST_FILE = HairSegmentationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArVrlab.HairSegmentationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HairSegmentation;
+			};
+			name = Debug;
+		};
+		ACD4D83A24C8846B00C6146B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6236N428A5;
+				INFOPLIST_FILE = HairSegmentationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ArVrlab.HairSegmentationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HairSegmentation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD4D80824C8846600C6146B /* Build configuration list for PBXProject "HairSegmentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD4D83024C8846B00C6146B /* Debug */,
+				ACD4D83124C8846B00C6146B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD4D83224C8846B00C6146B /* Build configuration list for PBXNativeTarget "HairSegmentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD4D83324C8846B00C6146B /* Debug */,
+				ACD4D83424C8846B00C6146B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD4D83524C8846B00C6146B /* Build configuration list for PBXNativeTarget "HairSegmentationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD4D83624C8846B00C6146B /* Debug */,
+				ACD4D83724C8846B00C6146B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD4D83824C8846B00C6146B /* Build configuration list for PBXNativeTarget "HairSegmentationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD4D83924C8846B00C6146B /* Debug */,
+				ACD4D83A24C8846B00C6146B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD4D80524C8846600C6146B /* Project object */;
+}
