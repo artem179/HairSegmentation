@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("photo")
+        Image("photo").resizable()
+            .frame(width: 224.0, height: 224.0)
     }
 }
 

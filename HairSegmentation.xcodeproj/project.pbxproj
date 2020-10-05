@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		654C2AD77BAAECB54925EFD5 /* Pods_HairSegmentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E7B1882866164D9E3E923D /* Pods_HairSegmentation.framework */; };
+		AC0B60C224CA33140047B52C /* HairMatteNet_pretrain.tflite in Resources */ = {isa = PBXBuildFile; fileRef = AC0B60C124CA33140047B52C /* HairMatteNet_pretrain.tflite */; };
+		AC0B60C424CA34370047B52C /* labels.json in Resources */ = {isa = PBXBuildFile; fileRef = AC0B60C324CA34370047B52C /* labels.json */; };
+		AC48E78D24D2042B00054386 /* AugmentedReality.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48E78C24D2042B00054386 /* AugmentedReality.swift */; };
 		AC564C4524C8935000470282 /* PostProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC564C4424C8935000470282 /* PostProcessing.swift */; };
+		ACA3511524D0430A0030143E /* HairMatteNet_quant_f16.tflite in Resources */ = {isa = PBXBuildFile; fileRef = ACA3511424D0430A0030143E /* HairMatteNet_quant_f16.tflite */; };
+		ACCC1B2424CA0A8300B24C0B /* ImageSegmentator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC1B2324CA0A8300B24C0B /* ImageSegmentator.swift */; };
+		ACCC1B2624CA0B1500B24C0B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC1B2524CA0B1500B24C0B /* UIImageExtension.swift */; };
+		ACCC1B2824CA0B9800B24C0B /* TFliteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCC1B2724CA0B9800B24C0B /* TFliteExtension.swift */; };
 		ACD4D81124C8846600C6146B /* HairSegmentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD4D81024C8846600C6146B /* HairSegmentationApp.swift */; };
 		ACD4D81324C8846600C6146B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD4D81224C8846600C6146B /* ContentView.swift */; };
 		ACD4D81524C8846A00C6146B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD4D81424C8846A00C6146B /* Assets.xcassets */; };
@@ -34,7 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DB1C8F0E0893B72955A8594 /* Pods-HairSegmentation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairSegmentation.debug.xcconfig"; path = "Target Support Files/Pods-HairSegmentation/Pods-HairSegmentation.debug.xcconfig"; sourceTree = "<group>"; };
+		88E7B1882866164D9E3E923D /* Pods_HairSegmentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairSegmentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E44D42C3A10CA5C7BEC2DC /* Pods-HairSegmentation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairSegmentation.release.xcconfig"; path = "Target Support Files/Pods-HairSegmentation/Pods-HairSegmentation.release.xcconfig"; sourceTree = "<group>"; };
+		AC0B60C124CA33140047B52C /* HairMatteNet_pretrain.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = HairMatteNet_pretrain.tflite; path = ../../../../Downloads/HairMatteNet_pretrain.tflite; sourceTree = "<group>"; };
+		AC0B60C324CA34370047B52C /* labels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = labels.json; sourceTree = "<group>"; };
+		AC48E78C24D2042B00054386 /* AugmentedReality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentedReality.swift; sourceTree = "<group>"; };
 		AC564C4424C8935000470282 /* PostProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProcessing.swift; sourceTree = "<group>"; };
+		ACA3511424D0430A0030143E /* HairMatteNet_quant_f16.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = HairMatteNet_quant_f16.tflite; path = "../../../../Downloads/Telegram Desktop/HairMatteNet_quant_f16.tflite"; sourceTree = "<group>"; };
+		ACCC1B2324CA0A8300B24C0B /* ImageSegmentator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSegmentator.swift; sourceTree = "<group>"; };
+		ACCC1B2524CA0B1500B24C0B /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		ACCC1B2724CA0B9800B24C0B /* TFliteExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFliteExtension.swift; sourceTree = "<group>"; };
 		ACD4D80D24C8846600C6146B /* HairSegmentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairSegmentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD4D81024C8846600C6146B /* HairSegmentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairSegmentationApp.swift; sourceTree = "<group>"; };
 		ACD4D81224C8846600C6146B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654C2AD77BAAECB54925EFD5 /* Pods_HairSegmentation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E87A7326E66D648F1FB9340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88E7B1882866164D9E3E923D /* Pods_HairSegmentation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC0B60C024CA32E60047B52C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B60C324CA34370047B52C /* labels.json */,
+				ACA3511424D0430A0030143E /* HairMatteNet_quant_f16.tflite */,
+				AC0B60C124CA33140047B52C /* HairMatteNet_pretrain.tflite */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		ACD4D80424C8846600C6146B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +118,8 @@
 				ACD4D82124C8846A00C6146B /* HairSegmentationTests */,
 				ACD4D82C24C8846B00C6146B /* HairSegmentationUITests */,
 				ACD4D80E24C8846600C6146B /* Products */,
+				EDBF1E61ECB593B1AA1E1F05 /* Pods */,
+				7E87A7326E66D648F1FB9340 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +136,17 @@
 		ACD4D80F24C8846600C6146B /* HairSegmentation */ = {
 			isa = PBXGroup;
 			children = (
+				AC0B60C024CA32E60047B52C /* model */,
 				ACD4D81024C8846600C6146B /* HairSegmentationApp.swift */,
 				ACD4D81224C8846600C6146B /* ContentView.swift */,
 				AC564C4424C8935000470282 /* PostProcessing.swift */,
 				ACD4D81424C8846A00C6146B /* Assets.xcassets */,
 				ACD4D81924C8846A00C6146B /* Info.plist */,
 				ACD4D81624C8846A00C6146B /* Preview Content */,
+				ACCC1B2324CA0A8300B24C0B /* ImageSegmentator.swift */,
+				ACCC1B2524CA0B1500B24C0B /* UIImageExtension.swift */,
+				ACCC1B2724CA0B9800B24C0B /* TFliteExtension.swift */,
+				AC48E78C24D2042B00054386 /* AugmentedReality.swift */,
 			);
 			path = HairSegmentation;
 			sourceTree = "<group>";
@@ -133,6 +177,15 @@
 			path = HairSegmentationUITests;
 			sourceTree = "<group>";
 		};
+		EDBF1E61ECB593B1AA1E1F05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DB1C8F0E0893B72955A8594 /* Pods-HairSegmentation.debug.xcconfig */,
+				A1E44D42C3A10CA5C7BEC2DC /* Pods-HairSegmentation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACD4D83224C8846B00C6146B /* Build configuration list for PBXNativeTarget "HairSegmentation" */;
 			buildPhases = (
+				860EC7946B4C67D8EAF04F46 /* [CP] Check Pods Manifest.lock */,
 				ACD4D80924C8846600C6146B /* Sources */,
 				ACD4D80A24C8846600C6146B /* Frameworks */,
 				ACD4D80B24C8846600C6146B /* Resources */,
@@ -236,7 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0B60C224CA33140047B52C /* HairMatteNet_pretrain.tflite in Resources */,
 				ACD4D81824C8846A00C6146B /* Preview Assets.xcassets in Resources */,
+				ACA3511524D0430A0030143E /* HairMatteNet_quant_f16.tflite in Resources */,
+				AC0B60C424CA34370047B52C /* labels.json in Resources */,
 				ACD4D81524C8846A00C6146B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +314,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		860EC7946B4C67D8EAF04F46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HairSegmentation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACD4D80924C8846600C6146B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ACD4D81324C8846600C6146B /* ContentView.swift in Sources */,
+				ACCC1B2424CA0A8300B24C0B /* ImageSegmentator.swift in Sources */,
 				AC564C4524C8935000470282 /* PostProcessing.swift in Sources */,
+				ACCC1B2824CA0B9800B24C0B /* TFliteExtension.swift in Sources */,
+				ACCC1B2624CA0B1500B24C0B /* UIImageExtension.swift in Sources */,
+				AC48E78D24D2042B00054386 /* AugmentedReality.swift in Sources */,
 				ACD4D81124C8846600C6146B /* HairSegmentationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +504,7 @@
 		};
 		ACD4D83324C8846B00C6146B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB1C8F0E0893B72955A8594 /* Pods-HairSegmentation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -426,7 +513,7 @@
 				DEVELOPMENT_TEAM = 6236N428A5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HairSegmentation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +527,7 @@
 		};
 		ACD4D83424C8846B00C6146B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E44D42C3A10CA5C7BEC2DC /* Pods-HairSegmentation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,7 +536,7 @@
 				DEVELOPMENT_TEAM = 6236N428A5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HairSegmentation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
